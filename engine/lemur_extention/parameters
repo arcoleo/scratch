@@ -1,0 +1,11 @@
+<parameters>
+	<dataFiles>sourcelist</dataFiles>
+	<docFormat>trec</docFormat>	
+	<memory>256m</memory>
+	<index>test_index</index>
+	<indexType>indri</indexType>
+	<stemmer>
+		<name>krovetz</name>
+	</stemmer>
+	<stopwords>stoplist.dft</stopwords>
+</parameters>

@@ -1,0 +1,4 @@
+all:
+	rm -rf *.so
+	rm -rf *.pyc
+	python PyLemur-setup.py build_ext -i -g -f
